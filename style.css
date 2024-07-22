@@ -1,0 +1,166 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+:root{
+    --text-color: #252B42;
+    --blue-color: #00A0C1;
+}
+
+li{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+    color: #737373;
+}
+
+body{
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500px;
+    font-size: 14px;
+    color: #737373;
+}
+
+.header{
+    margin: 0 auto;
+    background: url('img/background.png') no-repeat;
+    width: 1440px;
+    height: 794px;
+}
+
+.navigation{
+    display: flex;
+    padding-top: 40px;
+}
+
+.logo{
+    margin-left: 195px;
+    font-weight: 700px;
+    font-size: 24px;
+    color: var(--text-color);
+}
+
+.nav-item{
+    font-weight: 600px;
+    margin-right: 20px;
+}
+
+.nav-item :hover{
+    color: var(--text-color);
+}
+
+.nav{
+    display: flex;
+    margin-left: 116px;
+    padding-top: 6px;
+}
+
+.burger-menu{
+    margin-left: auto;
+    margin-right: 60px;
+}
+
+h1{
+    font-weight: 800px;
+    font-size: 58px;
+    color: var(--text-color);
+    margin-left: 195px;
+    margin-top: 120px;
+}
+
+.header-text{
+    margin-left: 195px;
+    font-size: 20px;
+    margin-top: 40px;
+}
+
+.buttons{
+    margin-left: 195px;
+    margin-top: 40px;
+    display: flex;
+}
+
+.button button{
+    border: 1px solid var(--blue-color);
+    border-radius: 10rem;
+    width: 157px;
+    height: 48px;
+    color: var(--blue-color);
+    margin-left: 10px;
+    font-weight: 700px;
+}
+
+.button button:hover{
+    border: none;
+    width: 187px;
+    background-color: #FFA62B;
+    color: #FFFFFF;
+}
+
+.cards{
+    margin-left: 195px;
+    margin-top: 80px;
+    display: flex;
+}
+
+.card{
+    width: 330px;
+    height: 210px;
+}
+
+.card *{
+    margin-left: 40px;
+}
+
+.card div{
+    width: 48px;
+    height: 48px;
+}
+
+.card-title{
+    color: var(--text-color);
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.card .briefcase{
+    margin-top: 35px;
+    background: url('img/briefcase.svg') no-repeat;
+}
+
+.card .shop{
+    margin-top: 35px;
+    background: url('img/shop.svg') no-repeat;
+}
+
+.card .book{
+    margin-top: 35px;
+    background: url('img/book-blue.svg') no-repeat;
+}
+
+.card:hover{
+    background-color: #00A0C1;
+}
+
+.card:hover h3{
+    color: #FFFFFF;
+}
+
+.card:hover p{
+    color: #FFFFFF;
+}
+
+.card:hover .briefcase{
+    background: url('img/briefcase-white.svg') no-repeat;
+}
+
+.card:hover .shop{
+    background: url('img/shop-white.svg') no-repeat;
+}
+
+.card:hover .book{
+    background: url('img/book.svg') no-repeat;
+}
