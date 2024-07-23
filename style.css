@@ -71,6 +71,12 @@ h1{
     margin-top: 120px;
 }
 
+h2{
+    font-weight: 700px;
+    font-size: 40px;
+    color: var(--text-color);
+}
+
 .header-text{
     margin-left: 195px;
     font-size: 20px;
@@ -104,6 +110,7 @@ h1{
     margin-left: 195px;
     margin-top: 80px;
     display: flex;
+    gap: 30px;
 }
 
 .card{
@@ -164,3 +171,42 @@ h1{
 .card:hover .book{
     background: url('img/book.svg') no-repeat;
 }
+
+.statistic{
+    margin: 192px auto 0;
+    width: 1440px;
+}
+
+.statistic p{
+    margin-top: 15px;
+}
+
+.statistic *{
+    text-align: center;
+}
+
+.statistic-list{
+    display: flex;
+    gap: 30px;
+    margin: 50px auto 0;
+    margin-left: 195px;
+}
+
+.statistic-element img{
+    margin-top: 30px;
+}
+
+.statistic-element{
+    width: 240px;
+}
+
+.statistic-element h2{
+    margin-top: 15px;
+}
+
+.statistic-element p{
+    margin-top: 15px;
+    font-weight: 700px;
+    font-size: 16px;
+}
+
