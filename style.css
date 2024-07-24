@@ -295,6 +295,7 @@ section > h2, section > p{
     display: flex;
     margin-left: 25px;
     width: 1000px;
+    margin-top: 70px;
 }
 
 .subscribe-title{
@@ -322,5 +323,90 @@ section > h2, section > p{
     background-color: #FFA62B;
     border: 0;
 }
+
+.contacts > p{
+    margin-top: 15px;
+}
+
+.contacts-list{
+    display: flex;
+    text-align: center;
+    margin-left: 195px;
+    margin-top: 80px;
+}
+
+.contact{
+    width: 330px;
+}
+
+.contact-img-first{
+    width: 72px;
+    height: 72px;
+    margin: 80px 0 15px 128px;
+    background-image: url('img/blue-phone.svg');
+}
+
+.contact-img-second{
+    width: 72px;
+    height: 72px;
+    margin: 80px 0 15px 128px;
+    background-image: url('img/blue-geo.svg');
+}
+
+.contact-img-third{
+    width: 72px;
+    height: 72px;
+    margin: 80px 0 15px 128px;
+    background-image: url('img/blue-telegram.svg');
+}
+
+.contact:hover .contact-img-first{
+    background-image: url('img/white-phone.svg');
+}
+
+.contact:hover .contact-img-second{
+    background-image: url('img/white-geo.svg');
+}
+
+.contact:hover .contact-img-third{
+    background-image: url('img/white-telegram.svg');
+}
+
+.mail{
+    font-weight: 600px;
+    color: var(--text-color);
+}
+
+.contact h3{
+    font-weight: 700px;
+    font-size: 16px;
+    color: var(--text-color);
+    margin: 15px 0;
+}
+
+.contact-button{
+    border: #FFA62B solid 1px;
+    color: #FFA62B;
+    background-color: #FFFFFF;
+    width: 160px;
+    height: 44px;
+    font-weight: 600px;
+    border-radius: 1rem;
+}
+
+.contact:hover{
+    background-color: #252B42;
+}
+
+.contact:hover *{
+    color: #FFFFFF;
+}
+
+.contact:hover .contact-button{
+    border-color: #FFFFFF;
+    background-color: #252B42;
+}
+
+
 
 
