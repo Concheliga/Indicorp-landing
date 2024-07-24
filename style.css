@@ -181,7 +181,7 @@ section{
     margin-top: 15px;
 }
 
-section *{
+section > h2, section > p{
     text-align: center;
 }
 
@@ -198,6 +198,7 @@ section *{
 
 .statistic-element{
     width: 240px;
+    text-align: center;
 }
 
 .statistic-element h2{
@@ -226,14 +227,63 @@ section *{
     text-align: left;
 }
 
-.advices-element h3{
+.advices-element h3, .advantage-title{
     color: var(--text-color);
     font-weight: 700px;
     font-size: 16px;
-    margin-top: 30px;
-    margin-left: 30px;
     text-align: left;
 }
 
+.advices-element h3{
+    margin-top: 30px;
+    margin-left: 30px;
+}
+
+.advantage-title{
+    margin-left: 20px;
+    margin-bottom: 5px;
+}
+
+.about-content{
+    margin-left: 195px;
+}
+
+.about-title{
+    margin-top: 200px;
+}
+
+.about-paragraph{
+    margin-top: 20px;
+}
+
+.about-content{
+    display: flex;
+    gap: 122px;
+    margin-top: 100px;
+}
+
+.trust{
+    width: 318px;
+}
+
+.trust > p{
+    margin-top: 15px;
+}
+
+.advantages{
+    margin-top: 50px;
+}
+
+.advantage{
+    display: grid;
+    grid-template-columns: 32px 286px;
+    margin-top: 30px;
+}
+
+.advantage > p{
+    grid-column-start: 2;
+    grid-row-start: 2;
+    margin-left: 20px;
+}
 
 
