@@ -34,6 +34,7 @@ body{
 .navigation{
     display: flex;
     padding-top: 40px;
+    flex-wrap: wrap;
 }
 
 .logo{
@@ -56,6 +57,7 @@ body{
     display: flex;
     margin-left: 116px;
     padding-top: 6px;
+    flex-wrap: wrap;
 }
 
 .burger-menu{
@@ -87,6 +89,7 @@ h2{
     margin-left: 195px;
     margin-top: 40px;
     display: flex;
+    flex-wrap: wrap;
 }
 
 .button button{
@@ -111,6 +114,7 @@ h2{
     margin-top: 80px;
     display: flex;
     gap: 30px;
+    flex-wrap: wrap;
 }
 
 .card{
@@ -190,6 +194,7 @@ section > h2, section > p{
     gap: 30px;
     margin: 50px auto 0;
     margin-left: 195px;
+    flex-wrap: wrap;
 }
 
 .statistic-element img{
@@ -216,6 +221,7 @@ section > h2, section > p{
     display: flex;
     gap: 30px;
     margin-left: 195px;
+    flex-wrap: wrap;
 }
 
 .advices-element{
@@ -260,6 +266,7 @@ section > h2, section > p{
     display: flex;
     gap: 122px;
     margin-top: 100px;
+    flex-wrap: wrap;
 }
 
 .trust{
@@ -296,6 +303,7 @@ section > h2, section > p{
     margin-left: 25px;
     width: 1000px;
     margin-top: 70px;
+    flex-wrap: wrap;
 }
 
 .subscribe-title{
@@ -333,6 +341,7 @@ section > h2, section > p{
     text-align: center;
     margin-left: 195px;
     margin-top: 80px;
+    flex-wrap: wrap;
 }
 
 .contact{
@@ -405,6 +414,71 @@ section > h2, section > p{
 .contact:hover .contact-button{
     border-color: #FFFFFF;
     background-color: #252B42;
+}
+
+.contact-us{
+    display: flex;
+}
+
+.contact-us-div{
+    width: 476px;
+    margin-left: 195px;
+}
+
+.contact-us h3{
+    font-weight: 700;
+    font-size: 24px;
+    color: var(--text-color);
+}
+
+.contact-us button{
+    height: 58px;
+    width: 164px;
+    margin-left: 360px;
+    background-color: #FFA62B;
+    color: #FFFFFF;
+    border: 0;
+    border-radius: 1cap;
+}
+
+.contact-us p{
+    text-align: left;
+    margin-top: 10px;
+}
+
+footer{
+    margin: 40px auto 0;
+    width: 1440px;
+    background-color: #16697A;
+}
+
+.footer-columns{
+    margin-left: 48px;
+    padding-top: 50px;
+    padding-bottom: 20px;
+    display: flex;
+    gap: 60px;
+    color: #FFFFFF;
+}
+
+.footer-title{
+    margin-bottom: 20px;
+    font-weight: 700;
+    font-size: 16px;
+}
+
+.footer-column-element{
+    font-weight: 600px;
+}
+
+.footer-column-element{
+    margin-bottom: 10px;
+}
+
+.footer-column-element a{
+    display: flex;
+    gap: 10px;
+    color: #FFFFFF;
 }
 
 
